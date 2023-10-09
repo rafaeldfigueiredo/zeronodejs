@@ -1,4 +1,4 @@
-POST http://localhost:3333/videos
+POST https://node-do-zero-6rph.onrender.com/videos
 Content-Type: application/json
 
 {"title": "Video node",
@@ -7,11 +7,11 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:3333/videos
+GET https://node-do-zero-6rph.onrender.com/videos
 
 ###
 
-PUT http://localhost:3333/videos/
+PUT https://node-do-zero-6rph.onrender.com/videos/
 Content-Type: application/json
 
 {"title": "Video 02",
@@ -20,4 +20,4 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3333/videos/
+DELETE https://node-do-zero-6rph.onrender.com/videos/
