@@ -1,1 +1,23 @@
-POST https://3333-rafaeldfigue-zeronodejs-tlv4fiyb7ag.ws-us105.gitpod.io/videos
+POST http://localhost:3333/videos
+Content-Type: application/json
+
+{"title": "Video node",
+"description":"Esse é o vídeo 01",
+"duration":180}
+
+###
+
+GET http://localhost:3333/videos
+
+###
+
+PUT http://localhost:3333/videos/
+Content-Type: application/json
+
+{"title": "Video 02",
+"description":"Esse é o vídeo 01",
+"duration":180}
+
+###
+
+DELETE http://localhost:3333/videos/
